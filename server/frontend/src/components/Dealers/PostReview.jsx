@@ -89,7 +89,7 @@ const PostReview = () => {
     
     get_dealer();
     get_cars();
-  },[]);
+  },[dealer_url, carmodels_url]);
 
 
   return (

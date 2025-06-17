@@ -45,7 +45,7 @@ const Dealers = () => {
     }
     
     get_dealers();
-  },[]);  
+  },[dealer_url]);  
 
 
 let isLoggedIn = sessionStorage.getItem("username") != null ? true : false;
