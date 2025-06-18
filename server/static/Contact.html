@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Best Cars Dealership</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    .map-container {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .map-container iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; height: 4rem;">
+    <div class="container-fluid">
+      <h2 class="text-white">Best Cars</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: large;" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: large;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: large;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="banner">
+    <h1>Contact Us</h1>
+    <p class="details">Need assistance? Reach out to our team — we're happy to help you with your next vehicle purchase.</p>
+  </div>
+
+  <div class="form_panel" style="background-color: #f8f9fa; color: black;">
+    <h3 class="title">📍 Our Headquarters</h3>
+    <p class="details">Best Cars Dealership</p>
+    <p class="details">1234 Velocity Drive<br>Motor City, MI 48201, USA</p>
+
+    <h3 class="title">📞 Phone & Email</h3>
+    <p class="details">
+      Toll-Free: <a href="tel:+18005551234">+1 (800) 555-1234</a><br>
+      Email: <a href="mailto:support@bestcars.com">support@bestcars.com</a>
+    </p>
+
+    <h3 class="title">🕘 Business Hours</h3>
+    <p class="details">
+      Monday – Friday: 9:00 AM – 6:00 PM<br>
+      Saturday: 10:00 AM – 4:00 PM<br>
+      Sunday: Closed
+    </p>
+  </div>
+
+  <div class="map-container">
+    <iframe src="https://maps.google.com/maps?q=detroit&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+  </div>
+</body>
+</html>
